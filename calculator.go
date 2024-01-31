@@ -1,5 +1,7 @@
 package calculator
 
+//go:generate mockgen -source=calculator.go -destination=mock_calculator_test.go -package=calculator_test
+
 import (
 	"fmt"
 )

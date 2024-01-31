@@ -1,9 +1,13 @@
 # go-mock
 
+Testing https://github.com/uber-go/mock ...
+
+## How-to
+
 Create mock:
 
 ```
-mockgen -source=calculator.go -package calculator_test -destination mock_calculator_test.go
+go generate
 ```
 
 Run tests:
